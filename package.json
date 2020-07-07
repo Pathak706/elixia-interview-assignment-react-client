@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.20.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "jwt-decode": "2.2.0",
+    "primeflex": "^2.0.0-rc.1",
+    "primeicons": "^4.0.0",
+    "primereact": "^4.2.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-excel-renderer": "^1.1.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "react-data-grid": "^7.0.0-canary.17",
+    "react-data-grid-addons": "^7.0.0-alpha.24"
+  }
+}
